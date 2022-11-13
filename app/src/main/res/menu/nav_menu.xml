@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navUsability"
+        android:menuCategory="system"
+        android:title="@string/usability"
+        android:icon="@drawable/usability_icon"/>
+
+    <item android:id="@+id/navHelp"
+        android:menuCategory="system"
+        android:title="@string/help"
+        android:icon="@drawable/help_icon"/>
+
+    <item android:id="@+id/navPrivacy"
+        android:menuCategory="system"
+        android:title="@string/aviso_de_privacidad"
+        android:icon="@drawable/privacy_icon"/>
+
+    <item android:id="@+id/navTerminos"
+        android:menuCategory="system"
+        android:title="@string/t_rminos_y_condiciones"
+        android:icon="@drawable/term_y_condiciones_icon"/>
+
+</menu>
