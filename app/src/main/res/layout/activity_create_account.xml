@@ -94,24 +94,13 @@
         android:layout_marginTop="50dp"
         android:text="@string/info"
         android:textColor="@color/jazzberry_jam"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.852"
-        app:layout_constraintStart_toEndOf="@id/infImage"
         app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
 
-    <ImageView
-        android:id="@+id/infImage"
-        android:layout_width="40dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="60dp"
-       android:src="@drawable/info_icon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
-        app:layout_constraintHorizontal_bias="0.498"
 
-        app:layout_constraintStart_toEndOf="@id/tvAviso" />
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
