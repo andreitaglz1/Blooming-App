@@ -6,16 +6,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
+    tools:openDrawer=""
     tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="start">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/blooms"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:scrollbarThumbVertical="@drawable/scroll_bar_icon"
-        android:scrollbars="vertical"
-    />
+        android:scrollbars="horizontal">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnPublicar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/border"
+                android:text="@string/publicar_un_bloom"
+                android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
     <com.google.android.material.navigation.NavigationView
        android:id="@+id/navView"
         android:layout_width="wrap_content"
@@ -28,5 +62,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/nav_menu"/>
+
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

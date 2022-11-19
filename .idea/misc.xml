@@ -3,34 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/drawable/border.xml" value="0.2485" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/drawable/gradient_pink.xml" value="0.221" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/drawable/info_icon.xml" value="0.108" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/drawable/scroll_bar_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_create_account.xml" value="0.264" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_help.xml" value="0.13240740740740742" />
-        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_info_account.xml" value="0.25" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_post.xml" value="0.25" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_privacy.xml" value="0.13240740740740742" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_terminosy_condiciones.xml" value="0.13240740740740742" />
-        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_usability.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/activity_usability.xml" value="0.2" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/item_lista.xml" value="0.264" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/item_listabloom.xml" value="0.2" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/nav_header.xml" value="0.16" />
+        <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/layout/rcv_bloom.xml" value="0.25" />
         <entry key="..\:/Users/Andrea/Blooming/app/src/main/res/menu/nav_menu.xml" value="0.4" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/gradient_pink.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/help_icon.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/privacy_icon.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/scroll_bar_icon.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/term_y_condiciones_icon.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/drawable/usability_icon.xml" value="0.2555" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_create_account.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_help.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_info_account.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_login.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_post.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_privacy.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_terminosy_condiciones.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/activity_usability.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/layout/nav_header.xml" value="0.2558876811594203" />
-        <entry key="..\:/Users/Mabel/Desktop/Moviles/Blooming-App/app/src/main/res/menu/nav_menu.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>
