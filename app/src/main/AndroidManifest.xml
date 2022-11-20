@@ -17,6 +17,9 @@
         android:theme="@style/Theme.Blooming"
         tools:targetApi="31">
         <activity
+            android:name=".InfoAccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".CreateAccountActivity"
             android:exported="false" />
         <activity
