@@ -5,4 +5,5 @@
     <string name="aviso_de_privacidad">Aviso de Privacidad</string>
     <string name="info">No debe revelar información personal. Por favor registrarse con un nickname</string>
     <string name="publicar">Publicar</string>
+    <string name="publicar_un_bloom">Publicar un Bloom</string>
 </resources>
