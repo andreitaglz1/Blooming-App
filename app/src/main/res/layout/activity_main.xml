@@ -27,10 +27,10 @@
         android:id="@+id/btnPost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="145dp"
-        android:text="@string/publicar_un_bloom"
-    />
+        android:layout_marginEnd="100dp"
+        android:text="@string/publicar_un_bloom" />
 
 </LinearLayout>
 
