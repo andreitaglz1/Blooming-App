@@ -29,15 +29,8 @@
       android:layout_marginTop="36dp"
       android:layout_marginEnd="40dp"
       android:textColor="@color/jazzberry_jam"
-      android:text="Este aviso de privacidad
-      explica la manera en que
-      nosotros recibimos,
-      utilizamos y compartimos
-      su información personal
-      al utilzar nuestra aplicación
-      o cuando interactúa de
-      cualquier manera con
-      nosotros"
+      android:text="@string/avisodeprivacidad"
+      android:gravity="center|center_vertical"
       android:textSize="20sp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
