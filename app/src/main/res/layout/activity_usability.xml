@@ -14,7 +14,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="100dp"
         android:textColor="@color/title"
-        android:text="¿Cómo funciona?"
+        android:text="@string/como_funciona"
         android:textAlignment="center"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,13 +29,9 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="40dp"
         android:textColor="@color/jazzberry_jam"
-        android:text="Callar o reprimir emociones y/o sentimientos intensos nos provocará daño
-         psicológico y físico, porque no solo nos sentimos angustiados sino que somos más
-         susceptibles a manifestar úlceras y/o enfermedades cardiovasculares.
-
-        Desahogarnos, hablar o expresar lo que sentimos, compartir nuestros pesares, nos ayuda a
-         liberarnos de aquella energía negativa que venimos arrastrando sobre los hombros."
+        android:text="@string/usabilidad"
         android:textSize="20sp"
+        android:gravity="center_vertical|center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle"
