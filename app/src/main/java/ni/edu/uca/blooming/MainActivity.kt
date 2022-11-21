@@ -29,9 +29,10 @@ class MainActivity : AppCompatActivity() {
                 R.id.navHelp -> startActivity(Intent(this@MainActivity,HelpActivity::class.java))
                 R.id.navPrivacy -> startActivity(Intent(this@MainActivity, PrivacyActivity::class.java))
                 R.id.navTerminos ->startActivity(Intent(this@MainActivity, TerminosyCondiciones::class.java))
-
             }
             true
         }
+
+
     }
 }
