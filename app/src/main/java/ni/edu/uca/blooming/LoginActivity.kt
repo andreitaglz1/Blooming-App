@@ -13,6 +13,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
         binding.tvCreateAc.setOnClickListener{
             startActivity(Intent(this@LoginActivity, CreateAccountActivity::class.java))
         }
