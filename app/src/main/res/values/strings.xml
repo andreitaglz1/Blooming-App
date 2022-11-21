@@ -6,4 +6,6 @@
     <string name="aviso_de_privacidad">Aviso de Privacidad</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="info">No debe revelar información personal. Por favor registrarse con un nickname</string>
+    <string name="publicar">Publicar</string>
 </resources>

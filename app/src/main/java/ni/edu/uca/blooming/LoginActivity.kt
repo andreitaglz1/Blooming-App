@@ -1,11 +1,22 @@
 package ni.edu.uca.blooming
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import ni.edu.uca.blooming.databinding.ActivityCreateAccountBinding
+import ni.edu.uca.blooming.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityLoginBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(binding.root)
+
+        binding.tvCreateAc.setOnClickListener{
+            startActivity(Intent(this@LoginActivity, CreateAccountActivity::class.java))
+        }
     }
 }
+

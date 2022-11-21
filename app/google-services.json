@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022589698376",
+    "project_id": "blooming-99127",
+    "storage_bucket": "blooming-99127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022589698376:android:3b6bec70f4592afd6ef37d",
+        "android_client_info": {
+          "package_name": "ni.edu.uca.blooming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022589698376-a00367dcc3sa18s26jpjethe3aoub9vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMqC0WUfFT57ehPqOLriJKTJ6RT6JzvFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022589698376-a00367dcc3sa18s26jpjethe3aoub9vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
