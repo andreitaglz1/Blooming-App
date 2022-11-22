@@ -18,7 +18,7 @@ class PostActivity : AppCompatActivity() {
         binding = ActivityPostBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnPubBloom.setOnClickListener { addBloom() }
+      //  binding.btnPubBloom.setOnClickListener { addBloom() }
 
         binding.btnHome.setOnClickListener {
             startActivity(Intent(this@PostActivity, MainActivity::class.java))
@@ -31,7 +31,7 @@ class PostActivity : AppCompatActivity() {
         }
     }
 
-        private fun addBloom(){
+        /*private fun addBloom(){
             val textBloom = binding.edBloom.text.toString()
 
 
@@ -40,7 +40,7 @@ class PostActivity : AppCompatActivity() {
                 BloomDatabase(this@PostActivity).getBloomDao().addBloom(bloom)
                 finish()
             }
-        }
+        }*/
 
     /*override fun onResume() {
         super.onResume()

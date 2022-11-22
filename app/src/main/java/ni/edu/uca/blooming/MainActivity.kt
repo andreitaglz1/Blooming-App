@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.recyclerview.widget.LinearLayoutManager
+import ni.edu.uca.blooming.adaptadores.PostAdapter
+import ni.edu.uca.blooming.adaptadores.PostList
 import ni.edu.uca.blooming.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        initRecyclerView()
 
         //for nav drawer
         toggle = ActionBarDrawerToggle(this, binding.root, R.string.open, R.string.close)
@@ -45,6 +49,11 @@ class MainActivity : AppCompatActivity() {
         if(toggle.onOptionsItemSelected(item))
             return true
         return super.onOptionsItemSelected(item)
+    }
+
+    fun initRecyclerView(){
+        binding.blooms.layoutManager = LinearLayoutManager(this)
+        binding.blooms.adapter = PostAdapter(PostList.listaPost)
     }
 
  /*   fun nuevo() {

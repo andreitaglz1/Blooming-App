@@ -10,11 +10,11 @@ import ni.edu.uca.blooming.data.BloomDatabase
 import ni.edu.uca.blooming.data.BloomRepository
 
 class BloomViewModel(application: Application): AndroidViewModel(application) {
-    private val readAllData: LiveData<List<Bloom>>
+  /*  private val readAllData: LiveData<List<Bloom>>
     private val repository: BloomRepository
     init{
         val bloomDao = BloomDatabase.getDatabase(application).bloomDao()
-        repository = BloomRepository(bloomDao)
+       repository = BloomRepository(bloomDao)
         readAllData = repository.readAllData
     }
 
@@ -22,5 +22,5 @@ class BloomViewModel(application: Application): AndroidViewModel(application) {
         viewModelScope.launch(Dispatchers.IO){
             repository.addBloom(bloom)
         }
-    }
+    }*/
 }
