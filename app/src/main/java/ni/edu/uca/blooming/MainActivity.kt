@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
 import ni.edu.uca.blooming.databinding.ActivityMainBinding
 
@@ -45,4 +46,9 @@ class MainActivity : AppCompatActivity() {
             return true
         return super.onOptionsItemSelected(item)
     }
+
+ /*   fun nuevo() {
+        val intent = Intent(this@MainActivity,PostActivity::class.java)
+        startActivity(intent)
+    }*/
 }
