@@ -12,10 +12,14 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.tvCreateAc.setOnClickListener{
             startActivity(Intent(this@LoginActivity, CreateAccountActivity::class.java))
+        }
+        binding.btnLogin.setOnClickListener {
+
         }
     }
 }
