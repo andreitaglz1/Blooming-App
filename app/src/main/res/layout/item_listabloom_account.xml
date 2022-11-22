@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="110dp">
 
-
         <TextView
             android:id="@+id/tv"
             android:layout_width="wrap_content"
@@ -61,7 +60,6 @@
 
 
     </RelativeLayout>
-
 
 
 </androidx.cardview.widget.CardView>
