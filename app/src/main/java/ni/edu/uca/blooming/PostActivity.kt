@@ -8,6 +8,7 @@ import ni.edu.uca.blooming.databinding.ActivityPostBinding
 
 class PostActivity : AppCompatActivity() {
     private lateinit var binding: ActivityPostBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPostBinding.inflate(layoutInflater)
