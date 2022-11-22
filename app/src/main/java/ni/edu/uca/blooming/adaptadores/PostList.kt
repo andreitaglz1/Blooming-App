@@ -2,7 +2,7 @@ package ni.edu.uca.blooming.adaptadores
 
 class PostList {
     companion object{
-        val listaPost= listOf(
+        val listaPost= listOf<Posts>(
             Posts(
                 id = 1,
                 texto = "Hola"
