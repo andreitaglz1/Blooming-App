@@ -4,11 +4,13 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "tbl_bloom")
 data class Bloom (
-    @PrimaryKey(autoGenerate = true)
-    val idBloom: Int,
-    val note: String
 
-    )
+    var textBloom: String =" "
+
+    ){
+    @PrimaryKey(autoGenerate = true)
+    var idBloom: Int = 0
+}
 
 
 
