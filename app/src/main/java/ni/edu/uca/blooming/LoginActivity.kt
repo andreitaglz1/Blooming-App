@@ -16,12 +16,6 @@ class LoginActivity : AppCompatActivity() {
         binding.btnLogin.setOnClickListener {
             startActivity(Intent(this@LoginActivity, MainActivity::class.java))
         }
-        binding.tvCreateAc.setOnClickListener{
-            startActivity(Intent(this@LoginActivity, CreateAccountActivity::class.java))
-        }
-        binding.btnLogin.setOnClickListener {
-
-        }
     }
 }
 
